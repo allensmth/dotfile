@@ -1,0 +1,48 @@
+[font]
+size = 14.0
+
+[font.normal]
+family = "M+1Code Nerd Font Mono"
+style = "Regular"
+
+[font.bold]
+family = "M+1Code Nerd Font Mono"
+style = "Medium"
+
+[font.italic]
+family = "M+1Code Nerd Font Mono"
+style = "Italic"
+
+[font.bold_italic]
+family = "M+1Code Nerd Font Mono"
+style = "Bold Italic"
+
+[mouse]
+hide_when_typing = true
+
+[[mouse.bindings]]
+mouse = "Right"
+action = "Paste"
+
+[selection]
+save_to_clipboard = true
+
+[window]
+option_as_alt = "OnlyLeft"
+
+[keyboard]
+bindings = [
+{ key = "D", mods = "Alt", chars = "\u001Bd" },
+{ key = "R", mods = "Alt", chars = "\u001Br" },
+{ key = "F", mods = "Command|Shift", action = "ReceiveChar" },
+{ key = "N", mods = "Command", action = "ReceiveChar" },
+{ key = "W", mods = "Command", action = "ReceiveChar" },
+]
+[general]
+import = [
+  # uncomment the flavour you want below:
+  #"~/.config/alacritty/catppuccin-latte.toml"
+  # "~/.config/alacritty/catppuccin-frappe.toml"
+  # "~/.config/alacritty/catppuccin-macchiato.toml"
+   "~/.config/alacritty/catppuccin-mocha.toml"
+]
